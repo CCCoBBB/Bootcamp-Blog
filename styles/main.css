@@ -44,7 +44,70 @@ body {
         cursor: pointer;
         border-style:ridge;
     }
+   
+    h2 {
+        width: auto;
+        display: block;
+        flex-direction: column;
+        text-align:center;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        letter-spacing: 3px;
+      }
 
-    .longer-text{
-        height: fit-content;
-    }
+/* - - - difference between margin, border and padding - - -*/
+
+.margin {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    background-color: #f2fffc;
+    border-radius: 8px;
+  
+    
+  }
+
+.border {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    background-color: #f2fffc;
+    border-radius: 8px;
+  }
+  
+.padding {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    background-color: #f2fffc;
+    border-radius: 8px;
+  }
+
+.main-content {
+    display:grid;
+    grid-template-columns:auto;
+    width: auto;
+    gap: 70px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 3px;
+   
+  }
+  
