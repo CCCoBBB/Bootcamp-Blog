@@ -21,6 +21,8 @@ body {
         list-style:inside;
         list-style-position: inside;
         margin-top: 200px;
+        padding-left: 0%;
+        list-style-type:none;
     }
 
     li{
@@ -35,7 +37,7 @@ body {
     button {
         color:black;
         border-color:#252525;
-        height: 50px;
+        height: 65px;
         width: 150px;
         font-family: 'IBM Plex Sans', sans-serif;
         border-radius:3px;
