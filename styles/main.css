@@ -43,6 +43,7 @@ body {
         border-radius:3px;
         cursor: pointer;
         border-style:ridge;
+        
     }
    
     h2 {
@@ -52,56 +53,19 @@ body {
         text-align:center;
         font-size: 18px;
         font-weight: 600;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
         letter-spacing: 3px;
       }
 
 /* - - - difference between margin, border and padding - - -*/
 
-.margin {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-weight: 300;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    letter-spacing: 5px;
-    background-color: #f2fffc;
-    border-radius: 8px;
-  
-    
-  }
-
-.border {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-weight: 300;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    letter-spacing: 5px;
-    background-color: #f2fffc;
-    border-radius: 8px;
-  }
-  
-.padding {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-weight: 300;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    letter-spacing: 5px;
-    background-color: #f2fffc;
-    border-radius: 8px;
-  }
 
 .main-content {
-    display:grid;
-    grid-template-columns:auto;
+    display: grid;
+    grid-template-areas:'left left middle middle right right' ;
     width: auto;
-    gap: 70px;
+    gap: 50px;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -110,4 +74,46 @@ body {
     letter-spacing: 3px;
    
   }
+
+.margin {
+    
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 1px;
+    background-color: #edf7f4;
+    border-radius: 8px;
   
+    
+  }
+
+.border {
+    
+    font-weight: 300;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 1px;
+    background-color: #edf7f4;
+    border-radius: 8px;
+  }
+  
+.padding {
+    
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 1px;
+    background-color: #edf7f4;
+    border-radius: 8px;
+  }
+
+
+  
+  
+    
