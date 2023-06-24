@@ -1,14 +1,28 @@
 body {
+   
+    width: auto;
     background-color: #e7e7e5;
     text-align: center;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    background-image: url(CCCoBBB.github.io/styles/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-    h1 {
+    strong {
         font-size: 35pt;
         font-weight: 100;
         margin-bottom: auto;
+        margin-top: auto;
         font-family: 'IBM Plex Sans', sans-serif;
+        background-color: #ccd1cc;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-bottom: 40px;
+        cursor: pointer;
+  
     }
 
     #link {
@@ -20,31 +34,59 @@ body {
     .idk {
         list-style:inside;
         list-style-position: inside;
-        margin-top: 200px;
+        margin-top: 20px;
         padding-left: 0%;
         list-style-type:none;
     }
 
     li{
         margin-top: 20px;
+        
     }
 
     footer {
         margin-top: 400pt;
-        font-size: 25px;
-    
+        font-size: 250px;
     }
+    .header {
+      background-color: #ccd1cc;
+      position: fixed;
+      top: 0;
+      left: 0;
+      font-family: 'IBM Plex Sans', sans-serif; 
+      width: 100%;
+      z-index: 1000;
+      margin-bottom: 40px;
+      cursor: pointer;
+    }
+ 
+    
+    .flex-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     button {
         color:black;
         border-color:#252525;
-        height: 65px;
-        width: 150px;
+        height: 200px;
+        width: 850px;
         font-family: 'IBM Plex Sans', sans-serif;
-        border-radius:3px;
+        border-radius:30px;
         cursor: pointer;
         border-style:ridge;
-        
+        padding: 14px 28px;
+        background-color: #ccd1cc; 
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      font-size: large;
     }
+
+    button:hover {
+        background-color: #3d3d3d; 
+        color: white;
+        transition-duration: 0s;
+      }
    
     h2 {
         width: auto;
@@ -57,6 +99,10 @@ body {
         margin-bottom: 25px;
         letter-spacing: 3px;
       }
+
+  
+       
+
 
 /* - - - difference between margin, border and padding - - -*/
 
@@ -71,8 +117,7 @@ body {
     padding-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    letter-spacing: 3px;
-   
+    letter-spacing: px;
   }
 
 .margin {
@@ -85,8 +130,6 @@ body {
     letter-spacing: 1px;
     background-color: #edf7f4;
     border-radius: 8px;
-  
-    
   }
 
 .border {
