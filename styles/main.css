@@ -156,6 +156,21 @@ body {
   }
 
 
+/* - - - Identity Values Strengths and Learnign plan- - -*/
   
-  
+  h3 {
+    text-align: left;
+    font-size: larger;
+    padding-bottom: 30px;
+    padding-block: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  small {
+    padding-left: 0px;
+    font-weight: 100;
+    font-size: large;
+   text-align:auto;
+  }
     
