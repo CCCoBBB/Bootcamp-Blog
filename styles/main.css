@@ -48,7 +48,7 @@ body {
         font-size: 250px;
     }
     .header {
-      background-color: #ccd1cc;
+      background-color: #f7f1ea;
       position: fixed;
       top: 0;
       left: 0;
@@ -69,8 +69,8 @@ body {
     button {
         color:black;
         border-color:#252525;
-        height: 200px;
-        width: 850px;
+        height: 150px;
+        width: 650px;
         font-family: 'IBM Plex Sans', sans-serif;
         border-radius:30px;
         cursor: pointer;
@@ -174,3 +174,12 @@ body {
    text-align:auto;
   }
     
+  .dom-core{
+    font-size: 10;
+
+  }
+
+  h4 {
+    font-size: 25px;
+    
+  }
